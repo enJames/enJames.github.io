@@ -6,17 +6,17 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <link rel="shortcut icon" href="/img/logo.png">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
-        <link rel="stylesheet" type="text/css" href="../static-files/css/animate.css">
-    	<link rel="stylesheet" type="text/css" href="../static-files/css/master.css">
-    	<link rel="stylesheet" type="text/css" href="../static-files/css/business_reg.css">
+        <link rel="stylesheet" type="text/css" href="static-files/css/animate.css">
+    	<link rel="stylesheet" type="text/css" href="static-files/css/master.css">
+    	<link rel="stylesheet" type="text/css" href="static-files/css/business_profile_update.css">
     </head>
     <body>
         <nav class="navbar navbar-toggleable-sm navbar-light bg-faded custom-color">
             <button class="navbar-toggler navbar-toggler-right menuButton" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon white-font"></span>
             </button>
-            <a class="navbar-brand" href="#">
-                <img src="../static-files/img/logo.png" width="150" height="80" alt="logo">
+            <a class="navbar-brand" href="index.html">
+                <img src="static-files/img/logo.png" width="150" height="80" alt="logo">
             </a>
             <div class="collapse navbar-collapse" id="navbarNav">
                 <form class="form-inline mx-auto">
@@ -32,7 +32,7 @@
                         <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLinkBusinesses" href="#"data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                             Businesses
                         </a>
-                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLinkBusinesses">
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLinkUser">
                             <a class="dropdown-item" href="business_profile.html">Some Company</a>
                             <a class="dropdown-item" href="#">WEConnect</a>
                         </div>
@@ -42,7 +42,7 @@
                     <a class="dropdown-toggle" href="http://example.com" id="navbarDropdownMenuLinkUser" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                         <div class="avatarDiv form-inline mx-auto">
                             <div class="avatar">
-                                <img class="img-fluid" src="../static-files/img/user/steve.png" alt="user">
+                                <img class="img-fluid" src="static-files/img/user/steve.png" alt="user">
                             </div>
                         </div>
                         <div class="username form-inline mx-auto">
@@ -61,24 +61,24 @@
         <div class="container">
             <div class="description">
                 <h1>Lorem and Lorem</h1>
-                <p>Registering your business on our platform has great advantages. Use the form to get you business registered and noticed by the world.</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Get your business noticed, get your business registered.</p>
             </div>
-            <form class="my-form" action="business_profile.html" method="POST text-center">
+            <form class="my-form" method="POST text-center">
                 <div class="form-group">
                     <div class="row">
                         <div class="col-md-6">
                             <label for="businessName">Business Name</label>
-                            <input class="form-control" type="text" id="businessName" placeholder="e.g Some Company">
+                            <input class="form-control" type="text" id="businessName" placeholder="e.g Some Company" value="Some Company">
                         </div>
                         <div class="col-md-6">
                             <label for="category">Business Category</label>
                             <select class="form-control" id="category">
-                                <option selected disabled hidden class="select-opt">--Select--</option>
+                                <option disabled hidden class="select-opt">--Select--</option>
                                 <option>Agriculture & Forestry/Wildlife</option>
                                 <option>Business & Information</option>
                                 <option>Construction/Utilities/Contracting</option>
                                 <option>Education</option>
-                                <option>Finance & Insurance</option>
+                                <option selected>Finance & Insurance</option>
                                 <option>Food & Hospitality</option>
                                 <option>Gaming</option>
                                 <option>Health Services</option>
@@ -97,11 +97,11 @@
                     <div class="row">
                         <div class="col-md-6">
                             <label for="email">Email</label>
-                            <input class="form-control" type="email" id="email" placeholder="e.g mail@example.com">
+                            <input class="form-control" type="email" id="email" placeholder="e.g mail@example.com" value="mail@example.com">
                         </div>
                         <div class="col-md-6">
                             <label for="website">Website</label>
-                            <input class="form-control" type="url" id="website" placeholder="e.g www.example.com">
+                            <input class="form-control" type="url" id="website" placeholder="e.g www.example.com" value="www.example.com">
                         </div>
                     </div>
                 </div>
@@ -109,11 +109,11 @@
                     <div class="row">
                         <div class="col-sm-6">
                             <label for="address_1">Address Line 1</label>
-                            <input class="form-control" type="text" id="address_1" placeholder="e.g Plot 207a Zuma Street">
+                            <input class="form-control" type="text" id="address_1" placeholder="e.g Plot 207a Zuma Street" value="Plot 1692, Wickson Street">
                         </div>
                         <div class="col-sm-6">
                             <label for="address_2">Address Line 2</label>
-                            <input class="form-control" type="text" id="address_2" placeholder="e.g Opposite Federal Secretariat">
+                            <input class="form-control" type="text" id="address_2" placeholder="e.g Opposite Federal Secretariat" value="Opposite old barracks">
                         </div>
                     </div>
                 </div>
@@ -121,20 +121,20 @@
                     <div class="row">
                         <div class="col-sm-4">
                             <label for="city">City</label>
-                            <input class="form-control" type="text" id="city" placeholder="e.g Victoria Island">
+                            <input class="form-control" type="text" id="city" placeholder="e.g Victoria Island" value="Iponri">
                         </div>
                         <div class="col-sm-4">
                             <label for="state">State</label>
-                            <input class="form-control" type="text" id="state" placeholder="e.g Lagos">
+                            <input class="form-control" type="text" id="state" placeholder="e.g Lagos" value="Lagos">
                         </div>
                         <div class="col-sm-4">
                             <label for="country">Country</label>
-                            <input class="form-control" type="text" id="country" placeholder="e.g Nigeria">
+                            <input class="form-control" type="text" id="country" placeholder="e.g Nigeria" value="Nigeria">
                         </div>
                     </div>
                 </div>
                 <div class="text-center button-div">
-                    <button type="submit" name="submit" class="wc-btn">Register Business</button>
+                    <button type="submit" name="submit" class="wc-btn">Save</button>
                 </div>
             </form>
         </div>
