@@ -8,8 +8,9 @@
   overflow: hidden; }
   .login-wrapper .login-div {
     background-color: rgba(0, 0, 0, 0.15);
-    margin: 9% auto 7% auto;
-    padding: 15px 20px; }
+    margin: 15px auto 12px auto;
+    padding: 10px 10px;
+    border-radius: 8px; }
     .login-wrapper .login-div .brand {
       padding: 4%; }
       .login-wrapper .login-div .brand .brand-img {
@@ -19,9 +20,10 @@
           max-width: 100%;
           height: auto; }
     .login-wrapper .login-div .my-form {
-      color: white; }
+      color: white;
+      margin: 5px auto; }
       .login-wrapper .login-div .my-form input {
-        height: 50px; }
+        height: 45px; }
       .login-wrapper .login-div .my-form .wc-btn {
         color: white !important;
         border-color: white !important; }
